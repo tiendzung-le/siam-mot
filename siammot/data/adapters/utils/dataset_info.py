@@ -34,6 +34,11 @@ dataset_maps['AOT'] = ['airbone_object_tracking',
                        'splits.json',
                        'video']
 
+dataset_maps['air'] = ['aot_training',
+                       'anno.json',
+                       'splits.json',
+                       'video']
+
 dataset_maps['COCO17_train'] = ['mscoco',
                                 'annotations/MSCOCO2017_train_person.json',
                                 'images/train2017',   # all raw images would be in dataset_root/mscoco/images/train2017
