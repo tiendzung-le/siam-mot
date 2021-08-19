@@ -91,7 +91,8 @@ def setup_env_and_logger(args, cfg):
         synchronize()
 
     model_name = get_model_name(cfg, args.model_suffix)
-    train_dir = os.path.join(args.train_dir, model_name)
+    #train_dir = os.path.join(args.train_dir, model_name)
+    train_dir = model_name
     if train_dir:
         mkdir(train_dir)
 
